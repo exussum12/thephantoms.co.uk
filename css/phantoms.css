@@ -1,0 +1,82 @@
+#header-phantoms {
+	position:relative;
+}
+#header-phantoms img {
+	overflow:hidden;
+	margin: 0 auto;
+}
+#header-phantoms h1 {
+	position:absolute;
+	margin:0 auto;
+	padding-top:3%;
+	top:0px;
+	left:248px;
+	color:#fff;
+}
+@media (max-width: 768px) {
+	#header-phantoms h1 {
+		left:auto;
+		color:#000;
+	}
+}
+#img-header {
+	min-height:100px;
+}
+.roster-player {
+	width:150px;
+}
+.profile-pic {
+	margin: 0 10px;
+	max-width:200px;
+}
+body {
+	background-image: url(/css/images/bg-main.jpg);
+	background-repeat: repeat;
+}
+#latest_news h4 {
+	font-size:16px;
+	font-weight:bold;
+}
+.contacts{
+	margin-bottom:10px;
+}
+body {
+	padding-top:10px;
+}
+#modal-body {
+	background-image: url(/css/images/bg-main.jpg);
+	padding:10px;
+}
+.player-link .panel {
+	min-height:295px;
+	position: relative;
+    float: left;
+    width: 186px;
+}
+.player-link .player-name {
+	position: absolute;
+	bottom: 10px;
+}
+.phantoms_results{
+	background-color:#fff;
+}
+.galleryImg {
+	max-width:200px;
+	max-height:125px;
+	float:left;
+}
+.galleryImg img {
+	max-height:100%;
+	max-width:100%;
+}
+.phantoms-gallary-panel {
+	height:150px;
+	width:230px;
+	padding-top:13px;
+}
+.contacts strong {
+	display:block;
+}
+.cb {
+	clear:both;
+}
